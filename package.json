@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RockyChennn/Arsenal/issues"
   },
-  "homepage": "https://github.com/RockyChennn/Arsenal#readme"
+  "homepage": "https://github.com/RockyChennn/Arsenal#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
 }
