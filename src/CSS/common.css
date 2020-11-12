@@ -1,5 +1,5 @@
 /* 遮罩写法 */
-mask {
+.mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -7,4 +7,17 @@ mask {
     bottom: -100vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
+}
+
+/* 质感阴影 */
+.shadow-box {
+    box-shadow: 4rpx 4rpx 22rpx rgba(0, 0, 0, 0.3)
+}
+
+/* 文本自适应截断 */
+.text-box {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
